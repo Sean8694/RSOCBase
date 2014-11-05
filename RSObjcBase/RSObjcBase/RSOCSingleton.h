@@ -7,6 +7,8 @@
 //
 
 #import "RSOCModule.h"
+#import "RSOCProtocol.h"
+#import "RSOCConfigure.h"
 
 @interface RSOCSingleton : RSOCModule <RSOCSingletonProtocol>
 

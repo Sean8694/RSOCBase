@@ -9,5 +9,9 @@
 #ifndef RSObjcBase_RSOCBase_h
 #define RSObjcBase_RSOCBase_h
 
+#import "RSOCViewController.h"
+#import "RSOCTableViewController.h"
+#import "RSOCModule.h"
+#import "RSOCSingleton.h"
 
 #endif
