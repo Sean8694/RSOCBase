@@ -14,13 +14,13 @@
 		4C3F1D891A0A1B700096B534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F1D881A0A1B700096B534 /* Images.xcassets */; };
 		4C3F1D8C1A0A1B700096B534 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F1D8A1A0A1B700096B534 /* LaunchScreen.xib */; };
 		4C3F1D981A0A1B700096B534 /* RSObjcBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1D971A0A1B700096B534 /* RSObjcBaseTests.m */; };
-		4C3F1DC41A0A2BE80096B534 /* RSOCModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DBD1A0A2BE80096B534 /* RSOCModule.m */; };
-		4C3F1DC51A0A2BE80096B534 /* RSOCSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DBF1A0A2BE80096B534 /* RSOCSingleton.m */; };
-		4C3F1DC61A0A2BE80096B534 /* RSOCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DC11A0A2BE80096B534 /* RSOCTableViewController.m */; };
-		4C3F1DC71A0A2BE80096B534 /* RSOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DC31A0A2BE80096B534 /* RSOCViewController.m */; };
-		4C3F1DD71A0A2EB70096B534 /* NSDictionary+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DD41A0A2EB70096B534 /* NSDictionary+RSOCAddition.m */; };
-		4C3F1DD81A0A2EB70096B534 /* UIColor+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DD61A0A2EB70096B534 /* UIColor+RSOCAddition.m */; };
-		4C3F1DDB1A0A2F560096B534 /* UIView+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DDA1A0A2F560096B534 /* UIView+RSOCAddition.m */; };
+		4C3F1DF01A0A30EC0096B534 /* NSDictionary+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DDF1A0A30EC0096B534 /* NSDictionary+RSOCAddition.m */; };
+		4C3F1DF11A0A30EC0096B534 /* UIColor+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DE11A0A30EC0096B534 /* UIColor+RSOCAddition.m */; };
+		4C3F1DF21A0A30EC0096B534 /* UIView+RSOCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DE31A0A30EC0096B534 /* UIView+RSOCAddition.m */; };
+		4C3F1DF31A0A30EC0096B534 /* RSOCModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DE61A0A30EC0096B534 /* RSOCModule.m */; };
+		4C3F1DF41A0A30EC0096B534 /* RSOCSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DE81A0A30EC0096B534 /* RSOCSingleton.m */; };
+		4C3F1DF51A0A30EC0096B534 /* RSOCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DEA1A0A30EC0096B534 /* RSOCTableViewController.m */; };
+		4C3F1DF61A0A30EC0096B534 /* RSOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F1DEC1A0A30EC0096B534 /* RSOCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,23 +47,23 @@
 		4C3F1D911A0A1B700096B534 /* RSObjcBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSObjcBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3F1D961A0A1B700096B534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C3F1D971A0A1B700096B534 /* RSObjcBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSObjcBaseTests.m; sourceTree = "<group>"; };
-		4C3F1DB21A0A1D010096B534 /* RSOCProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOCProtocol.h; sourceTree = "<group>"; };
-		4C3F1DB31A0A1D840096B534 /* RSOCConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOCConfigure.h; sourceTree = "<group>"; };
-		4C3F1DB41A0A1DA00096B534 /* RSOCBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOCBase.h; sourceTree = "<group>"; };
-		4C3F1DBC1A0A2BE80096B534 /* RSOCModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCModule.h; sourceTree = "<group>"; };
-		4C3F1DBD1A0A2BE80096B534 /* RSOCModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCModule.m; sourceTree = "<group>"; };
-		4C3F1DBE1A0A2BE80096B534 /* RSOCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCSingleton.h; sourceTree = "<group>"; };
-		4C3F1DBF1A0A2BE80096B534 /* RSOCSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCSingleton.m; sourceTree = "<group>"; };
-		4C3F1DC01A0A2BE80096B534 /* RSOCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCTableViewController.h; sourceTree = "<group>"; };
-		4C3F1DC11A0A2BE80096B534 /* RSOCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCTableViewController.m; sourceTree = "<group>"; };
-		4C3F1DC21A0A2BE80096B534 /* RSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCViewController.h; sourceTree = "<group>"; };
-		4C3F1DC31A0A2BE80096B534 /* RSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCViewController.m; sourceTree = "<group>"; };
-		4C3F1DD31A0A2EB70096B534 /* NSDictionary+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RSOCAddition.h"; sourceTree = "<group>"; };
-		4C3F1DD41A0A2EB70096B534 /* NSDictionary+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RSOCAddition.m"; sourceTree = "<group>"; };
-		4C3F1DD51A0A2EB70096B534 /* UIColor+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSOCAddition.h"; sourceTree = "<group>"; };
-		4C3F1DD61A0A2EB70096B534 /* UIColor+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSOCAddition.m"; sourceTree = "<group>"; };
-		4C3F1DD91A0A2F560096B534 /* UIView+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSOCAddition.h"; sourceTree = "<group>"; };
-		4C3F1DDA1A0A2F560096B534 /* UIView+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSOCAddition.m"; sourceTree = "<group>"; };
+		4C3F1DDE1A0A30EC0096B534 /* NSDictionary+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RSOCAddition.h"; sourceTree = "<group>"; };
+		4C3F1DDF1A0A30EC0096B534 /* NSDictionary+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RSOCAddition.m"; sourceTree = "<group>"; };
+		4C3F1DE01A0A30EC0096B534 /* UIColor+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSOCAddition.h"; sourceTree = "<group>"; };
+		4C3F1DE11A0A30EC0096B534 /* UIColor+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSOCAddition.m"; sourceTree = "<group>"; };
+		4C3F1DE21A0A30EC0096B534 /* UIView+RSOCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSOCAddition.h"; sourceTree = "<group>"; };
+		4C3F1DE31A0A30EC0096B534 /* UIView+RSOCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSOCAddition.m"; sourceTree = "<group>"; };
+		4C3F1DE51A0A30EC0096B534 /* RSOCModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCModule.h; sourceTree = "<group>"; };
+		4C3F1DE61A0A30EC0096B534 /* RSOCModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCModule.m; sourceTree = "<group>"; };
+		4C3F1DE71A0A30EC0096B534 /* RSOCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCSingleton.h; sourceTree = "<group>"; };
+		4C3F1DE81A0A30EC0096B534 /* RSOCSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCSingleton.m; sourceTree = "<group>"; };
+		4C3F1DE91A0A30EC0096B534 /* RSOCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCTableViewController.h; sourceTree = "<group>"; };
+		4C3F1DEA1A0A30EC0096B534 /* RSOCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCTableViewController.m; sourceTree = "<group>"; };
+		4C3F1DEB1A0A30EC0096B534 /* RSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCViewController.h; sourceTree = "<group>"; };
+		4C3F1DEC1A0A30EC0096B534 /* RSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOCViewController.m; sourceTree = "<group>"; };
+		4C3F1DED1A0A30EC0096B534 /* RSOCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCBase.h; sourceTree = "<group>"; };
+		4C3F1DEE1A0A30EC0096B534 /* RSOCConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCConfigure.h; sourceTree = "<group>"; };
+		4C3F1DEF1A0A30EC0096B534 /* RSOCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOCProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		4C3F1D7A1A0A1B700096B534 /* RSObjcBase */ = {
 			isa = PBXGroup;
 			children = (
-				4C3F1DA51A0A1C750096B534 /* RSObjcBase */,
+				4C3F1DDC1A0A30EC0096B534 /* RSOCBase */,
 				4C3F1D7F1A0A1B700096B534 /* AppDelegate.h */,
 				4C3F1D801A0A1B700096B534 /* AppDelegate.m */,
 				4C3F1D821A0A1B700096B534 /* ViewController.h */,
@@ -144,44 +144,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C3F1DA51A0A1C750096B534 /* RSObjcBase */ = {
+		4C3F1DDC1A0A30EC0096B534 /* RSOCBase */ = {
 			isa = PBXGroup;
 			children = (
-				4C3F1DB41A0A1DA00096B534 /* RSOCBase.h */,
-				4C3F1DB21A0A1D010096B534 /* RSOCProtocol.h */,
-				4C3F1DB31A0A1D840096B534 /* RSOCConfigure.h */,
-				4C3F1DBB1A0A2BE80096B534 /* Module */,
-				4C3F1DD21A0A2EB70096B534 /* CategoryAddition */,
+				4C3F1DDD1A0A30EC0096B534 /* CategoryAddition */,
+				4C3F1DE41A0A30EC0096B534 /* Module */,
+				4C3F1DED1A0A30EC0096B534 /* RSOCBase.h */,
+				4C3F1DEE1A0A30EC0096B534 /* RSOCConfigure.h */,
+				4C3F1DEF1A0A30EC0096B534 /* RSOCProtocol.h */,
 			);
-			path = RSObjcBase;
+			path = RSOCBase;
 			sourceTree = "<group>";
 		};
-		4C3F1DBB1A0A2BE80096B534 /* Module */ = {
+		4C3F1DDD1A0A30EC0096B534 /* CategoryAddition */ = {
 			isa = PBXGroup;
 			children = (
-				4C3F1DBC1A0A2BE80096B534 /* RSOCModule.h */,
-				4C3F1DBD1A0A2BE80096B534 /* RSOCModule.m */,
-				4C3F1DBE1A0A2BE80096B534 /* RSOCSingleton.h */,
-				4C3F1DBF1A0A2BE80096B534 /* RSOCSingleton.m */,
-				4C3F1DC01A0A2BE80096B534 /* RSOCTableViewController.h */,
-				4C3F1DC11A0A2BE80096B534 /* RSOCTableViewController.m */,
-				4C3F1DC21A0A2BE80096B534 /* RSOCViewController.h */,
-				4C3F1DC31A0A2BE80096B534 /* RSOCViewController.m */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		4C3F1DD21A0A2EB70096B534 /* CategoryAddition */ = {
-			isa = PBXGroup;
-			children = (
-				4C3F1DD31A0A2EB70096B534 /* NSDictionary+RSOCAddition.h */,
-				4C3F1DD41A0A2EB70096B534 /* NSDictionary+RSOCAddition.m */,
-				4C3F1DD51A0A2EB70096B534 /* UIColor+RSOCAddition.h */,
-				4C3F1DD61A0A2EB70096B534 /* UIColor+RSOCAddition.m */,
-				4C3F1DD91A0A2F560096B534 /* UIView+RSOCAddition.h */,
-				4C3F1DDA1A0A2F560096B534 /* UIView+RSOCAddition.m */,
+				4C3F1DDE1A0A30EC0096B534 /* NSDictionary+RSOCAddition.h */,
+				4C3F1DDF1A0A30EC0096B534 /* NSDictionary+RSOCAddition.m */,
+				4C3F1DE01A0A30EC0096B534 /* UIColor+RSOCAddition.h */,
+				4C3F1DE11A0A30EC0096B534 /* UIColor+RSOCAddition.m */,
+				4C3F1DE21A0A30EC0096B534 /* UIView+RSOCAddition.h */,
+				4C3F1DE31A0A30EC0096B534 /* UIView+RSOCAddition.m */,
 			);
 			path = CategoryAddition;
+			sourceTree = "<group>";
+		};
+		4C3F1DE41A0A30EC0096B534 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F1DE51A0A30EC0096B534 /* RSOCModule.h */,
+				4C3F1DE61A0A30EC0096B534 /* RSOCModule.m */,
+				4C3F1DE71A0A30EC0096B534 /* RSOCSingleton.h */,
+				4C3F1DE81A0A30EC0096B534 /* RSOCSingleton.m */,
+				4C3F1DE91A0A30EC0096B534 /* RSOCTableViewController.h */,
+				4C3F1DEA1A0A30EC0096B534 /* RSOCTableViewController.m */,
+				4C3F1DEB1A0A30EC0096B534 /* RSOCViewController.h */,
+				4C3F1DEC1A0A30EC0096B534 /* RSOCViewController.m */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,16 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3F1DC61A0A2BE80096B534 /* RSOCTableViewController.m in Sources */,
-				4C3F1DC41A0A2BE80096B534 /* RSOCModule.m in Sources */,
 				4C3F1D841A0A1B700096B534 /* ViewController.m in Sources */,
-				4C3F1DD71A0A2EB70096B534 /* NSDictionary+RSOCAddition.m in Sources */,
+				4C3F1DF11A0A30EC0096B534 /* UIColor+RSOCAddition.m in Sources */,
 				4C3F1D811A0A1B700096B534 /* AppDelegate.m in Sources */,
+				4C3F1DF61A0A30EC0096B534 /* RSOCViewController.m in Sources */,
+				4C3F1DF51A0A30EC0096B534 /* RSOCTableViewController.m in Sources */,
+				4C3F1DF31A0A30EC0096B534 /* RSOCModule.m in Sources */,
+				4C3F1DF41A0A30EC0096B534 /* RSOCSingleton.m in Sources */,
 				4C3F1D7E1A0A1B700096B534 /* main.m in Sources */,
-				4C3F1DC51A0A2BE80096B534 /* RSOCSingleton.m in Sources */,
-				4C3F1DD81A0A2EB70096B534 /* UIColor+RSOCAddition.m in Sources */,
-				4C3F1DC71A0A2BE80096B534 /* RSOCViewController.m in Sources */,
-				4C3F1DDB1A0A2F560096B534 /* UIView+RSOCAddition.m in Sources */,
+				4C3F1DF01A0A30EC0096B534 /* NSDictionary+RSOCAddition.m in Sources */,
+				4C3F1DF21A0A30EC0096B534 /* UIView+RSOCAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
